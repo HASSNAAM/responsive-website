@@ -22,7 +22,6 @@ Welcome to the Creative Agency project! This dazzling website template has all t
 
 - **HTML5**: The skeleton.
 - **CSS3**: The skin.
-- **Bootstrap 5**: The muscles.
 - **Font Awesome**: The bling.
 - **Java Script**: The brain.
 
@@ -36,7 +35,6 @@ MIT License. Because sharing is caring.
 
 ## Acknowledgements
 
-- **Bootstrap**: For the heavy lifting.
 - **Font Awesome**: For the icons.
 - **Unsplash**: For the eye candy.
 
