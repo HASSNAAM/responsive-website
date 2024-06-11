@@ -1,13 +1,4 @@
-/*
- ** Countdown Timer
- ** Video URL: https://www.youtube.com/watch?v=eFsiOTJrrE8
- */
-
-// The End Of The Year Date
-// 1000 milliseconds = 1 Second
-
 let countDownDate = new Date("Dec 31, 2022 23:59:59").getTime();
-// console.log(countDownDate);
 
 let counter = setInterval(() => {
   // Get Date Now
@@ -17,7 +8,6 @@ let counter = setInterval(() => {
   let dateDiff = countDownDate - dateNow;
 
   // Get Time Units
-  // let days = Math.floor(dateDiff / 1000 / 60 / 60 / 24);
   let days = Math.floor(dateDiff / (1000 * 60 * 60 * 24));
   let hours = Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   let minutes = Math.floor((dateDiff % (1000 * 60 * 60)) / (1000 * 60));
@@ -35,22 +25,12 @@ let counter = setInterval(() => {
   }
 }, 1000);
 
-/*
- ** Animate Width On Scrolling
- ** Video URL: https://youtu.be/sbIoIKI9FOc
- */
-
-/*
- ** Increase Numbers On Scrolling
- ** Video URL: https://youtu.be/PLsUdgLnzgQ
- */
-
 let progressSpans = document.querySelectorAll(".the-progress span");
 let section = document.querySelector(".our-skills");
 
 let nums = document.querySelectorAll(".stats .number");
 let statsSection = document.querySelector(".stats");
-let started = false; // Function Started ? No
+let started = false;
 
 window.onscroll = function () {
   // Skills Animate Width
